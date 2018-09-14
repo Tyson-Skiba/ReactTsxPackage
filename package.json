@@ -5,6 +5,7 @@
     "@types/react-dom": "^16.0.2",
     "@types/react-test-renderer": "^16.0.2",
     "@types/storybook__react": "^3.0.9",
+    "auto-changelog": "^1.8.0",
     "awesome-typescript-loader": "^5.2.0",
     "classnames": "^2.2.6",
     "jest-coverage-badges": "^1.0.0",
@@ -80,11 +81,14 @@
     "publish-for-gitlab": "build-storybook -c .storybook -o ./public",
     "precommit": "./precommit.sh",
     "postcommit": "./postcommit.sh",
+    "prepush": "node ./scripts/local/prepush.js",
     "security": "snyk test --severity-threshold=medium --dry-run",
     "security-gitlab": "snyk test --severity-threshold=medium --dry-run",
     "security-map": "snyk test --json --severity-threshold=medium --dry-run > ./__generated__/snyk.json",
     "security-publish": "snyk-to-html -i ./__generated__/snyk.json -o ./__generated__/packages.html",
-    "badge": "node ./scripts/validation/badge.builder.js"
+    "badge": "node ./scripts/validation/badge.builder.js",
+    "changelog": "node ./scripts/general/log.js \"Generating Change Log\" && auto-changelog -p --template ./scripts/changelog/template.hbs  && git add CHANGELOG.md && node ./scripts/general/log.js \"Change Log Created\"",
+    "github": "node ./scripts/sync/generate.readme.js"
   },
   "repository": {
     "type": "git",

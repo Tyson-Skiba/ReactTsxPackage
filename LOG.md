@@ -1,13 +1,36 @@
 ## Log  
 <div style="background-color:#3E4143;border-radius:10px;padding:10px;">  
-<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">  bfcd1c</span> <span style="color:#FFFFFF"> Merge branch 'feature/maintanance-auto-change-log' into 'master'</span><br>  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">  73ba69</span> <span style="color:#FFFFFF"> Merge branch 'feature/module-notepad' into 'master'</span><br>  
 <span style="color:#FFB399">|</span><span style="color:#FF33FF">\</span>  <br>  
-<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">1ad5ef0 </span> <span style="color:#FFFFFF">eature/maintanance auto change log</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">dcc817c </span> <span style="color:#FFFFFF">ebuilt: Package Lock</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">  2e3c71</span> <span style="color:#FFFFFF"> Merge branch 'master' into feature/module-notepad</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FF33FF">|</span><span style="color:#FFFF99">\</span>  <br>  
+<span style="color:#FFB399">|</span> <span style="color:#FF33FF">|</span><span style="color:#FFFF99">/</span>  <br>  
+<span style="color:#FFB399">|</span><span style="color:#FF33FF">/</span><span style="color:#FFFF99">|</span>   <br>  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">|   bfcd</span> <span style="color:#FFFFFF">c8 Merge branch 'feature/maintanance-auto-change-log' into 'master'</span><br>  
+<span style="color:#FFB399">|</span><span style="color:#FF33FF">\</span> <span style="color:#FFFF99">\</span>  <br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">| 1ad5ef</span> <span style="color:#FFFFFF"> Feature/maintanance auto change log</span><br>  
+<span style="color:#FFB399">|</span><span style="color:#FF33FF">/</span> <span style="color:#FFFF99">/</span>  <br>  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">| 54b2de</span> <span style="color:#FFFFFF"> Added: Better Logging in CI</span><br>  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">| fd4922</span> <span style="color:#FFFFFF"> Added: Better commit message when pushing to github</span><br>  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">| 92f6f9</span> <span style="color:#FFFFFF"> Updated: JQ will now be installed during the deploy stage for ALL branches.</span><br>  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">| 38c396</span> <span style="color:#FFFFFF"> Added: Push package.json to github on publish for external validation Examples David Dm, DependABot ...</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">b8107a2 </span> <span style="color:#FFFFFF">pdated: Metrics</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">3002cc4 </span> <span style="color:#FFFFFF">dded: Node History Metric</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">6e90ed8 </span> <span style="color:#FFFFFF">pdated: Metrics for Scaleability</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">23f403d </span> <span style="color:#FFFFFF">dded: More Metrics Components</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">445a403 </span> <span style="color:#FFFFFF">dded: PIe Component</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">2a8989f </span> <span style="color:#FFFFFF">dded: Bar Component</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">bd56b44 </span> <span style="color:#FFFFFF">dded: Relevant Styles</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">ed886bf </span> <span style="color:#FFFFFF">dded: Charts</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">1fde8c5 </span> <span style="color:#FFFFFF">dded: Mocks Structure</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">623c426 </span> <span style="color:#FFFFFF">dded: Tile Component</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">6aded77 </span> <span style="color:#FFFFFF">dded: Tooltip Component</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">d91d4f4 </span> <span style="color:#FFFFFF">dded: Taskbar</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">917c229 </span> <span style="color:#FFFFFF">dded: Notes Mock</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">164ba15 </span> <span style="color:#FFFFFF">pdated: Storybook UI Heirarchy</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">22bcd9e </span> <span style="color:#FFFFFF">dded: Notes</span><br>  
 <span style="color:#FFB399">|</span><span style="color:#FF33FF">/</span>  <br>  
-<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">54b2de7 </span> <span style="color:#FFFFFF">dded: Better Logging in CI</span><br>  
-<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">fd4922e </span> <span style="color:#FFFFFF">dded: Better commit message when pushing to github</span><br>  
-<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">92f6f91 </span> <span style="color:#FFFFFF">pdated: JQ will now be installed during the deploy stage for ALL branches.</span><br>  
-<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">38c3961 </span> <span style="color:#FFFFFF">dded: Push package.json to github on publish for external validation Examples David Dm, DependABot ...</span><br>  
 <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">  b4b570</span> <span style="color:#FFFFFF"> Merge branch 'quality/nesting-issues' into 'master'</span><br>  
 <span style="color:#FFB399">|</span><span style="color:#FF33FF">\</span>  <br>  
 <span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">2c628c5 </span> <span style="color:#FFFFFF">uality: Refactored Badge Builder</span><br>  

@@ -1,5 +1,10 @@
 ## Log  
 <div style="background-color:#3E4143;border-radius:10px;padding:10px;">  
+<span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">  67cd8e</span> <span style="color:#FFFFFF"> Merge branch 'feature/device-display-optimisations-metrics' into 'master'</span><br>  
+<span style="color:#FFB399">|</span><span style="color:#FF33FF">\</span>  <br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">9dda754 </span> <span style="color:#FFFFFF">pdated: UI Styles for PC and Mobile</span><br>  
+<span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">82ae93c </span> <span style="color:#FFFFFF">pdated: Styles for mobile devices</span><br>  
+<span style="color:#FFB399">|</span><span style="color:#FF33FF">/</span>  <br>  
 <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">  73ba69</span> <span style="color:#FFFFFF"> Merge branch 'feature/module-notepad' into 'master'</span><br>  
 <span style="color:#FFB399">|</span><span style="color:#FF33FF">\</span>  <br>  
 <span style="color:#FFB399">|</span> <span style="color:#FFFFFF">*</span> <span style="color:#F4F69A">dcc817c </span> <span style="color:#FFFFFF">ebuilt: Package Lock</span><br>  

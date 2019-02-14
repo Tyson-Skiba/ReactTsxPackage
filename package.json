@@ -11,7 +11,7 @@
     "@types/react": "^16.4.12",
     "@types/react-dom": "^16.0.2",
     "@types/react-test-renderer": "^16.0.2",
-    "@types/storybook__react": "^3.0.9",
+    "@types/storybook__react": "^4.0.1",
     "auto-changelog": "^1.8.0",
     "awesome-typescript-loader": "^5.2.0",
     "classnames": "^2.2.6",

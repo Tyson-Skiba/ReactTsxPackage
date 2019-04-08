@@ -33,7 +33,7 @@
     "@storybook/addon-actions": "^3.4.10",
     "@storybook/addon-knobs": "^3.4.10",
     "@storybook/addon-links": "^3.4.10",
-    "@storybook/addon-options": "^3.4.10",
+    "@storybook/addon-options": "^5.0.6",
     "@storybook/addons": "^3.4.10",
     "@storybook/react": "^4.0.0-alpha",
     "@types/jest": "^23.3.1",

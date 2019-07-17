@@ -46,7 +46,7 @@
     "color": "^3.0.0",
     "file-loader": "^2.0.0",
     "husky": "^0.14.3",
-    "jest": "^23.5.0",
+    "jest": "^24.8.0",
     "mini-css-extract-plugin": "^0.4.2",
     "node-sass": "^4.9.3",
     "npm-audit-html": "^1.1.0",

@@ -24,7 +24,8 @@
     "react-feather": "^1.1.1",
     "typescript": "^3.0.1",
     "update": "^0.7.4",
-    "webpack": "^4.17.1"
+    "webpack": "^4.17.1",
+    "snyk": "^1.321.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -100,7 +101,9 @@
     "security-publish": "snyk-to-html -i ./__generated__/snyk.json -o ./__generated__/packages.html",
     "badge": "node ./scripts/validation/badge.builder.js",
     "changelog": "node ./scripts/general/log.js \"Generating Change Log\" && auto-changelog -p --template ./scripts/changelog/template.hbs  && git add CHANGELOG.md && node ./scripts/general/log.js \"Change Log Created\"",
-    "github": "node ./scripts/sync/generate.readme.js"
+    "github": "node ./scripts/sync/generate.readme.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -112,5 +115,6 @@
     "url": "https://gitlab.com/tskiba/ReactJS/issues"
   },
   "homepage": "https://gitlab.com/tskiba/ReactJS#README",
-  "description": ""
+  "description": "",
+  "snyk": true
 }
